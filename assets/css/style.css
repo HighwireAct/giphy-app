@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+header {
+    text-align: center;
+}
+
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+h1,
+header {
+    font-size: 2em;
+    line-height: 1.25em;
+    margin-bottom: 0.4em;
+}
+
+form,
+.gallery-element {
+    display: inline-block;
+}
+
+.gallery-element {
+    margin-bottom: 5px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    margin: 5px 2px;
+    line-height: 1.25em;
+}
+
+input {
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+
+img {
+    margin: 5px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+#buttons {
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+/* @media screen and (min-width: 768px) {
+    header {
+        text-align: left;
+    }
+
+    form {
+        display: block;
+    }
+
+    #buttons,
+    #main {
+        display: inline-block;
+    }
+
+    #buttons {
+        width: 20%;
+    }
+
+    #main {
+        width: 70%;
+    }
+} */
